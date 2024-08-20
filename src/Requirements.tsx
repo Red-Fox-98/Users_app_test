@@ -1,5 +1,5 @@
 import {FC} from "react";
-import exmapleImg from './assets/example.png';
+import exampleImg from './assets/example.png';
 
 const Requirements: FC = () => (
     <div>
@@ -53,7 +53,7 @@ const Requirements: FC = () => (
         </ol>
 
         <h2>Пример интерфейса проекта</h2>
-        <img src={exmapleImg}
+        <img src={exampleImg}
              width={480}
              alt="Пример интерфейса проекта"/>
 
