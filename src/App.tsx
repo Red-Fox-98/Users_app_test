@@ -29,7 +29,7 @@ export default function App() {
     const [usersData, setUsersData] = useState<User[]>([]);
     const [filter, setFilter] = useState<Filter>({age: "", name: ""})
     const [message, setMessage] = useState<MessageI>({isLoading: false, isNotFound: false, errorMessage: ""});
-    const [paginate, setPaginate] = useState<PaginateI>({limit: 4, page: 1});
+    const [paginate, setPaginate] = useState<PaginateI>({limit: 1, page: 1});
     const selectNumber = [1, 2, 3, 4, 5];
 
     useEffect(() => {
